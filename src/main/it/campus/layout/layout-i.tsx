@@ -7,18 +7,28 @@ import { it$campus$model$heading as heading } from "../model/heading/package-inf
 
 //REM: [TODO, ASAP_MODE]
 function layout_i(
-    { header } : heading.FCHeader
+    { header, className } : heading.FCHeader
 ): React.ReactElement
 {
     return (<>
-    <div className="flex flex-col
-    p-2">
-        <Header header={header}/>
-        <div className="flex flex-col
+    <div className={`${className}`}>
+        <Header className={`flex flex-col 
+        place-content-evenly
+        pl-2 pr-2 text-purple-600
+        text-[1.5rem] font-semibold`} header={header}/>
+
+        <div className="flex flex-row
+        place-content-evenly
+        items-center
+        place-items-center
         pl-4 pr-0">
             <Outlet/>
         </div>
-        <Footer header={header}/>
+
+        <Footer className={`flex flex-col 
+        place-content-evenly
+        p-2 text-purple-600
+        text-[1.5rem] font-semibold`}  header={header}/>
     </div>
     </>);
 }

@@ -5,6 +5,7 @@ export namespace it$campus$model$heading {
 
     export interface FCHeader {
         header: heading.Header;
+        className?: string | undefined | null;
     }
 
 }

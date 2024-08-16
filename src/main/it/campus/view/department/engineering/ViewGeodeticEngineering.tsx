@@ -8,7 +8,9 @@ import React from 'react';
 const ViewGeodeticEngineering: React.FC = () => {
   return (
     <>
-      <h1 className="text-lime-600 text-[3rem] font-semibold">Geodetic Engineering!</h1>
+    <div>
+      <h1 className="text-lime-600 text-[3rem] font-semibold">Geodetic Engineering!!</h1>
+    </div>
     </>
   );
 };

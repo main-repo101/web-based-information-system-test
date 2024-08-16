@@ -11,11 +11,13 @@ import ViewHome from './view/index.tsx';
 import { it$campus$model$heading as $heading} from './model/heading/package-info.mts';
 
 const App: React.FC<$heading.Header> = (
-    {subtitle, title }
+  // {title, subtitle}
+    header
 ) => {
 
-  const HEADER = new $heading.Header(title, subtitle);
-
+  // const HEADER = new $heading.Header(title, subtitle);
+  const HEADER = header;
+  
   return (
     <BrowserRouter>
       <Routes>
