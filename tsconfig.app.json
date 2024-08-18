@@ -20,6 +20,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     // "rootDir": "./src"
+    "baseUrl": ".",
+    "paths": {
+      "@main/*": ["./src/main/*"],
+      "@resources/*": ["./src/resources/*"]
+    }
   },
   "include": ["src"]
 }

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import React from 'react-dom/client'
-import App from './App.tsx'
+import App from '@main/it/campus/App.tsx'
 import '@resources/css/index.css'
 
 //REM: [TODO, MAKE_A_GUARD]
