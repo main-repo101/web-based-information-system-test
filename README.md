@@ -1,3 +1,6 @@
+## This pertains to the requirements for the subject "Advance Web Development" where teamwork and collaboration among members are demonstrated. The project being developed is solely for educational purposes and offers a basic framework for creating a collaborative project.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
