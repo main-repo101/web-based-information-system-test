@@ -6,6 +6,7 @@ export namespace $it$campus$model$heading {
     export interface FCHeader {
         header?: $heading.Header | undefined | null;
         className?: string | undefined | null;
+        children?: React.ReactNode | undefined | null;
     }
 
 }
